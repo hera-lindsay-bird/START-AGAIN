@@ -1,0 +1,21 @@
+node_modules
+*.log
+*.sqlite3
+server/public/bundle.js
+server/public/bundle.js.map
+.env
+tags
+
+# Ignore test-related files
+/coverage.data
+/coverage/
+coverage/*
+
+# Ignore tailwind files
+server/public/styles.css
+server/public/styles.css.map
+
+# Ignore MacOS DS Store
+.DS_Store
+
+.vscode
